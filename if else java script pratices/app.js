@@ -40,11 +40,34 @@
 ///qno4
 ///Anuss
 
-var userName = prompt("Enter Your Correct Name ")
-var myName = ("Ahmed Nadeem siddiuqe") 
+// var userName = prompt("Enter Your Correct Name ")
+// var myName = ("Ahmed Nadeem siddiuqe") 
 
-if( userName == myName ){
-    console.log("Hi byee")
-}else(
-    console.log(myName)
-)
+// if( userName == myName ){
+//     console.log("Hi byee")
+// }else(
+//     console.log(myName)
+// )
+
+
+
+
+
+
+///qno5
+///Anuss
+
+var letter = prompt("Enter a number or string");
+
+if(letter >= 'A' && letter <= 'Z') {
+    console.log("This is an Upper Case Letter & Also a string");
+}
+else if(letter >= 'a' && letter <= 'z') {
+    console.log("This is a Lower Case Letter & Also a String");
+}
+else if(letter >= 47 && letter  <= 30){
+    console.log("This is a Number")
+}
+else {
+    console.log("Please Enter a number or string");
+}
