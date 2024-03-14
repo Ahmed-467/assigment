@@ -76,12 +76,27 @@
 
 //qno6
 ///Anuss
-var year = prompt("Enter Current Year");
-var leap =(2005 == 2008 == 2024)
+// var year = prompt("Enter Current Year");
+// var leap =(2005 == 2008 == 2024)
 
-if(year %
-     100 ===0){
-    console.log("it is a leap year")
-}else{
-    console.log("This is Not leap Year")
-}
+// if(year %
+//      100 ===0){
+//     console.log("it is a leap year")
+// }else{
+//     console.log("This is Not leap Year")
+// }
+
+
+
+
+///qno7
+//anuss
+
+var firstName = "Ahmed";
+
+
+if (firstName === "nadeem") {
+    document.write("Hello siddiuqe!");
+   }else{
+    console.log("You are developer")
+   }
