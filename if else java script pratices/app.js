@@ -92,11 +92,25 @@
 ///qno7
 //anuss
 
-var firstName = "Ahmed";
+// var firstName = "Ahmed";
 
 
-if (firstName === "nadeem") {
-    document.write("Hello siddiuqe!");
-   }else{
-    console.log("You are developer")
-   }
+// if (firstName === "nadeem") {
+//     document.write("Hello siddiuqe!");
+//    }else{
+//     console.log("You are developer")
+//    }
+
+
+
+
+
+///qno8
+///anUSS
+
+var time=prompt("Enter Time")
+if (time < 18) {
+    console.log ("i am going to pak tour");
+} else {
+    console.log ( " and go back very soon ");
+}
