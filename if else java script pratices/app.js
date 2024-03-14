@@ -57,17 +57,31 @@
 ///qno5
 ///Anuss
 
-var letter = prompt("Enter a number or string");
+// var letter = prompt("Enter a number or string");
 
-if(letter >= 'A' && letter <= 'Z') {
-    console.log("This is an Upper Case Letter & Also a string");
-}
-else if(letter >= 'a' && letter <= 'z') {
-    console.log("This is a Lower Case Letter & Also a String");
-}
-else if(letter >= 47 && letter  <= 30){
-    console.log("This is a Number")
-}
-else {
-    console.log("Please Enter a number or string");
+// if(letter >= 'A' && letter <= 'Z') {
+//     console.log("This is an Upper Case Letter & Also a string");
+// }
+// else if(letter >= 'a' && letter <= 'z') {
+//     console.log("This is a Lower Case Letter & Also a String");
+// }
+// else if(letter >= 47 && letter  <= 30){
+//     console.log("This is a Number")
+// }
+// else {
+//     console.log("Please Enter a number or string");
+// }
+
+
+
+//qno6
+///Anuss
+var year = prompt("Enter Current Year");
+var leap =(2005 == 2008 == 2024)
+
+if(year %
+     100 ===0){
+    console.log("it is a leap year")
+}else{
+    console.log("This is Not leap Year")
 }
