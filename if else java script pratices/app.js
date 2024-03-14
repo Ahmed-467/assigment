@@ -108,9 +108,30 @@
 ///qno8
 ///anUSS
 
-var time=prompt("Enter Time")
-if (time < 18) {
-    console.log ("i am going to pak tour");
-} else {
-    console.log ( " and go back very soon ");
-}
+// var time=prompt("Enter Time")
+// if (time < 18) {
+//     console.log ("i am going to pak tour");
+// } else {
+//     console.log ( " and go back very soon ");
+// }
+
+
+
+
+//Qno9
+//Anuss
+var English = +prompt("English Mark")
+var Math = +prompt("Math Mark")
+var Urdu = +prompt("Urdu Mark")
+var Islamiat = +prompt("Islamiat Mark")
+var Physic = +prompt("Physic")
+
+var total = 550
+
+console.log("Total Marks" , total)
+
+var obtained= ( English + Math + Urdu + Islamiat + Physic)
+console.log("Obtained " , obtained)
+
+var percentage= obtained / total * 100
+console.log (percentage)
