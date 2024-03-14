@@ -25,10 +25,26 @@
 
 ///qno3
 ///ANUSss
-var age = +prompt("Enter Your Age");
+// var age = +prompt("Enter Your Age");
 
-if(age > 19 ){
-    console.log("this is real time")
-}else{
-    console.log("this is not real time")
-}
+// if(age > 19 ){
+//     console.log("this is real time")
+// }else{
+//     console.log("this is not real time")
+// }
+
+
+
+
+
+///qno4
+///Anuss
+
+var userName = prompt("Enter Your Correct Name ")
+var myName = ("Ahmed Nadeem siddiuqe") 
+
+if( userName == myName ){
+    console.log("Hi byee")
+}else(
+    console.log(myName)
+)
