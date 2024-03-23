@@ -12,7 +12,7 @@ for(let i = 1; i <= 5; i++){
 
 
 // 2. Write a program to print numeric counting from 1 to 10.
-// for (let i = 1; i <=10; i++) {
-//     const element = array[i];
+for (let i = 1; i <=10; i++) {
+    const element = array[i];
     
-// }
+}
