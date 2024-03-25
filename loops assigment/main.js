@@ -67,34 +67,61 @@
 // e. Series: 2k, 4k, 6k, 8k, 10k, 12k, 14k, 16k, 18k, 20k
 
 //counting
-console.log("<h3>counting</h3>");
-for(let i=1;i <=15; i++){
-    console.log(i +',');
+// console.log("<h3>counting</h3>");
+// for(let i=1;i <=15; i++){
+//     console.log(i +',');
 
-}
+// }
 //b.Resverse counting:
-console.log("<h3>counting</h3>");
-for (let i = 10; i >=1; i--) {
-    console.log(i +",");
+// console.log("<h3>counting</h3>");
+// for (let i = 10; i >=1; i--) {
+//     console.log(i +",");
     
-}
+// }
 
 //c.even:
-console.log('Even');
-for(let i=0;i <= 20; i+=2){
-    console.log(i +",");
-}
+// console.log('Even');
+// for(let i=0;i <= 20; i+=2){
+//     console.log(i +",");
+// }
 
 //d.odd:
-console.log('odd');
-for(let i=1;i <=20; i+=2){
-    console.log(i +',');
-}
+// console.log('odd');
+// for(let i=1;i <=20; i+=2){
+//     console.log(i +',');
+// }
 
 //e.series:
-console.log('series');
-for(let i=2;i <=20; i+=2)
-console.log(i +'k');
+// console.log('series');
+// for(let i=2;i <=20; i+=2)
+// console.log(i +'k');
+
+
+
+
+
+///You have an array
+//7 A = [“cake”, “apple pie”, “cookie”, “chips”, “patties”]
+// Write a program to enable “search by user input” in an array.
+// After searching, prompt the user whether the given item is 
+// found in the list or not. Example:
+
+
+
+let bakery =['cake', 'apple','pie' , 'cookie', 'chips', 'patties']
+const userinput = prompt("enter any item!")
+let isavailable = false;
+
+
+for(let i= 0;i <bakery.length; i++){
+    if(userinput === bakery[i]){
+        console.log("item avaiable hein!");
+        isavailable = true
+    }
+}if(isavailable === false){
+    console.log('item available nahi hein malik!');
+}
+
 
 
 
