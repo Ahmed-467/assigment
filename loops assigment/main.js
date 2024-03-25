@@ -27,6 +27,9 @@
 
 let number = +prompt("enter your number!")
 let length = +prompt("time is golden")
-for(let i = 1;1 <=10; i++){
-    console.log(i);
+for(let i = 1;i <=10; i++){
+    console.log(`${number} x ${i} = ${number*i}`);
 }
+
+
+
