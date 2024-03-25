@@ -245,15 +245,15 @@
 // ///18Write a program to calculate the product of the odd integers 
 // from 1 to 7.
 
-let product = 1;
+// let product = 1;
 
-for (let i = 1; i <= 7; i++) {
+// for (let i = 1; i <= 7; i++) {
     
-    if (i % 2 !== 0) {
-        product *= i;
-    }
-}
-console.log("Product of odd integers from 1 to 7:", product);
+//     if (i % 2 !== 0) {
+//         product *= i;
+//     }
+// }
+// console.log("Product of odd integers from 1 to 7:", product);
 
 //19Write a program that will write out a wedge of stars. The user 
 // will enter the initial number of stars, and the program will write 
@@ -267,6 +267,44 @@ for(let i = num;i >= 1; i--){
         console.log(str);
     }
 }
+
+
+///20. Write a program to create the following patterns in your 
+// browser. Take number of lines as an input.
+// a. *****
+// *****
+// *****
+// *****
+// b. *
+// **
+// ***
+// ****
+// *****
+// c. *****
+// ****
+// ***
+// **
+
+
+const numLines = parseInt(prompt("Enter the number of lines:"));
+
+  document.write("<strong>Pattern 1:</strong><br>");
+  for (let i = 1; i <= numLines; i++) {
+    for (let j = 1; j <= i; j++) {
+      document.write("*");
+    }
+    document.write("<br>");
+  }
+  document.write("<br>");
+
+
+  document.write("<strong>Pattern 2:</strong><br>");
+  for (let i = numLines; i >= 1; i--) {
+    for (let j = 1; j <= i; j++) {
+      document.write("*");
+    }
+    document.write("<br>");
+  }
 
 
 
