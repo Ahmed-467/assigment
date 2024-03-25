@@ -203,14 +203,46 @@
 
 ///15Write a program to initialize an array of N items by using 
 // prompt. Where N is number of items as entered by the user
-let ul = document.querySelector('ul')
-let para = document.querySelector('para')
-let uservalue =+ prompt("enter number of item!")
- Head.innerHTML =`number of Item: ${uservalue};
-for(let i=1;i <=uservalue; i++){
-    let item = prompt("enter item name");
-    paragraph.innerHTML += <li>${item}</li>
+// let ul = document.querySelector('ul')
+// let para = document.querySelector('para')
+// let uservalue =+ prompt("enter number of item!")
+//  Head.innerHTML =`number of Item: ${uservalue};
+// for(let i=1;i <=uservalue; i++){
+//     let item = prompt("enter item name");
+//     paragraph.innerHTML += <li>${item}</li>
+// }
+
+
+///16You have an array
+// A = [ [1,2,3] , [4,5,6] , [7,8,9] ]
+// Write each element on new line with the help of nested for 
+// loops
+
+
+let num = parseFloat(prompt("Enter a number:"));
+if (isNaN(num)) {
+    console.log("Invalid input. Please enter a valid number.");
+} else {
+   
+    while (num > 0) {
+        console.log(num);
+        num -= 0.5;
+    }
 }
+
+///17Write a program to repeatedly print the value of the variable 
+// num which is input by user. Value should be decreasing by 0.5 
+// each time, as long as x Value remains positive
+
+for (let i = 0; i <= 20; i++) {
+    if (i % 2 === 0) {
+        console.log(`${i} is rich`);
+    } else {
+        console.log(`${i} is poor`);
+    }
+}
+
+
 
 
 
