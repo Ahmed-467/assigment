@@ -219,16 +219,16 @@
 // loops
 
 
-let num = parseFloat(prompt("Enter a number:"));
-if (isNaN(num)) {
-    console.log("Invalid input. Please enter a valid number.");
-} else {
+// let num = parseFloat(prompt("Enter a number:"));
+// if (isNaN(num)) {
+//     console.log("Invalid input. Please enter a valid number.");
+// } else {
    
-    while (num > 0) {
-        console.log(num);
-        num -= 0.5;
-    }
-}
+//     while (num > 0) {
+//         console.log(num);
+//         num -= 0.5;
+//     }
+// }
 
 ///17Write a program to repeatedly print the value of the variable 
 // num which is input by user. Value should be decreasing by 0.5 
@@ -241,6 +241,20 @@ for (let i = 0; i <= 20; i++) {
         console.log(`${i} is poor`);
     }
 }
+
+// ///18Write a program to calculate the product of the odd integers 
+// from 1 to 7.
+
+let product = 1;
+
+for (let i = 1; i <= 7; i++) {
+    
+    if (i % 2 !== 0) {
+        product *= i;
+    }
+}
+console.log("Product of odd integers from 1 to 7:", product);
+
 
 
 
