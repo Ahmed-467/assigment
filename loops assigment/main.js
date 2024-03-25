@@ -47,17 +47,60 @@
 //5 Write a program to print items of the following array using for 
 // loop:
 // fruits = [“apple”, “banana”, “mango”, “orange”, “strawberry”
-let fruits =['apple',"banana",'mango',"orange","strawberry"]
-let ul = document.querySelector('ul')
-let para = document.querySelector('orderlist')
-for (let i = 0; i < fruits.length; i++) {
-  ul.innerHTML +=`<li>Element at index $['apple',"banana",'mango',"orange","strawberry"]</li>`
+// let fruits =['apple',"banana",'mango',"orange","strawberry"]
+// let ul = document.querySelector('ul')
+// let para = document.querySelector('orderlist')
+// for (let i = 0; i < fruits.length; i++) {
+//   ul.innerHTML +=`<li>Element at index $['apple',"banana",'mango',"orange","strawberry"]</li>`
+    
+// }
+
+
+
+
+//6 Generate the following series in your browser. See example 
+// output.
+// a. Counting: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+// b. Reverse counting: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+// c. Even: 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20
+// d. Odd: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19
+// e. Series: 2k, 4k, 6k, 8k, 10k, 12k, 14k, 16k, 18k, 20k
+
+//counting
+console.log("<h3>counting</h3>");
+for(let i=1;i <=15; i++){
+    console.log(i +',');
+
+}
+//b.Resverse counting:
+console.log("<h3>counting</h3>");
+for (let i = 10; i >=1; i--) {
+    console.log(i +",");
     
 }
 
-    
-    
+//c.even:
+console.log('Even');
+for(let i=0;i <= 20; i+=2){
+    console.log(i +",");
+}
 
+//d.odd:
+console.log('odd');
+for(let i=1;i <=20; i+=2){
+    console.log(i +',');
+}
+
+//e.series:
+console.log('series');
+for(let i=2;i <=20; i+=2)
+console.log(i +'k');
+
+
+
+
+    
+    
 
 
 
