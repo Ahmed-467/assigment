@@ -3,16 +3,30 @@
 
 
 /// answer
-let username ="hello world"
-let ul = document.querySelector('ul')
+// let username ="hello world"
+// let ul = document.querySelector('ul')
 
-for(let i = 1; i <= 5; i++){
-    ul.innerHTML += `<li>${"hello world"} ${i}</li>`
-}
+// for(let i = 1; i <= 5; i++){
+//     ul.innerHTML += `<li>${"hello world"} ${i}</li>`
+// }
 
 
 // 2. Write a program to print numeric counting from 1 to 10.
-for (let i = 1; i <=10; i++) {
-    const element = array[i];
+// for (let i = 1; i <=10; i++) {
+//     const element = array[i];
     
+// }
+
+
+
+
+// / 3. Write a program to print multiplication table of any number
+// using for loop. Table number & length should be taken as an
+// input from user.
+
+
+let number = +prompt("enter your number!")
+let length = +prompt("time is golden")
+for(let i = 1;1 <=10; i++){
+    console.log(i);
 }
