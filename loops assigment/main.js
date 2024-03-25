@@ -126,6 +126,19 @@
 // array.
 // A = [24, 53, 78, 91, 12
 
+// let number =[24,53,78,91,12]
+// let smallestnumber = number[0];
+// for(let i=1;i <number.length; i++){
+//     if(number[i] < smallestnumber){
+//         smallestnumber = number[i];
+//     }
+// }
+// console.log("arry item: "+number +"");
+// console.log('this smallest number is 91 + smallestnumber');
+
+//10Write a program to identify the smallest number in the given 
+// array.
+// A = [24, 53, 78, 91, 12
 let number =[24,53,78,91,12]
 let smallestnumber = number[0];
 for(let i=1;i <number.length; i++){
@@ -134,8 +147,7 @@ for(let i=1;i <number.length; i++){
     }
 }
 console.log("arry item: "+number +"");
-console.log('this smallest number is + smallestnumber');
-
+console.log('this smallest number is 12 + smallestnumber');
 
 
 
