@@ -164,9 +164,21 @@
 //     console.log('this largest number is 91 + largestnumber');
 
     //12. Write a program to print multiples of 5 ranging 1 to 10
-    for(let i=5;i <=100;i +=5){
-        console.log(i +",");
-    }
+    // for(let i=5;i <=100;i +=5){
+    //     console.log(i +",");
+    // }
+
+
+///13You have given the following arrays:
+// var students = ["Ali", "Sami", "Taha", "Inam"];
+// var scores = [58, 73, 89, 90]    
+
+
+var students =["asad","jawad","haseeb","talha"]
+var scores =[58,73,89,90]
+for(let i=0;i <students.length; i++){
+    console.log(`${students[i]} scored ${scores[i]} marks.`);
+}
 
 
 
