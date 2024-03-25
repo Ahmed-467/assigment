@@ -174,11 +174,44 @@
 // var scores = [58, 73, 89, 90]    
 
 
-var students =["asad","jawad","haseeb","talha"]
-var scores =[58,73,89,90]
-for(let i=0;i <students.length; i++){
-    console.log(`${students[i]} scored ${scores[i]} marks.`);
+// var students =["asad","jawad","haseeb","talha"]
+// var scores =[58,73,89,90]
+// for(let i=0;i <students.length; i++){
+//     console.log(`${students[i]} scored ${scores[i]} marks.`);
+// }
+
+
+///14Write a program that prints number from start of the array
+// to desired stop value. Given array:
+// var scores = [12, 45, 3, 22, 34, 50];
+// (Hint: take stop value from user)
+// E.g. if user gives 3 as input value print 12, 45, 3
+// if user gives 34 as input value print 12, 45, 3, 22, 3
+
+var scores = [12, 45, 3, 22, 34, 50];
+
+var stopValue = parseInt(prompt("Enter the stop value:"));
+
+for (let i = 0; i < scores.length; i++) {
+    if (scores[i] <= stopValue) {
+        console.log(scores[i]);
+    } else {
+        break; 
+    }
 }
+
+
+///15Write a program to initialize an array of N items by using 
+// prompt. Where N is number of items as entered by the user
+let ul = document.querySelector('ul')
+let para = document.querySelector('para')
+let uservalue =+ prompt("enter number of item!")
+ Head.innerHTML =`number of Item: ${uservalue};
+for(let i=1;i <=uservalue; i++){
+    let item = prompt("enter item name");
+    paragraph.innerHTML += <li>${item}</li>
+}
+
 
 
 
