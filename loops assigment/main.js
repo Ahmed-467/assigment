@@ -234,13 +234,13 @@
 // num which is input by user. Value should be decreasing by 0.5 
 // each time, as long as x Value remains positive
 
-for (let i = 0; i <= 20; i++) {
-    if (i % 2 === 0) {
-        console.log(`${i} is rich`);
-    } else {
-        console.log(`${i} is poor`);
-    }
-}
+// for (let i = 0; i <= 20; i++) {
+//     if (i % 2 === 0) {
+//         console.log(`${i} is rich`);
+//     } else {
+//         console.log(`${i} is poor`);
+//     }
+// }
 
 // ///18Write a program to calculate the product of the odd integers 
 // from 1 to 7.
@@ -254,6 +254,19 @@ for (let i = 1; i <= 7; i++) {
     }
 }
 console.log("Product of odd integers from 1 to 7:", product);
+
+//19Write a program that will write out a wedge of stars. The user 
+// will enter the initial number of stars, and the program will write 
+// out lines of stars where each line has one few star than the 
+// previous line. Initial number of stars: 
+let num = 10;
+for(let i = num;i >= 1; i--){
+    let str = "";
+    for(let j= 0; j <i; j++){
+        str += '*';
+        console.log(str);
+    }
+}
 
 
 
