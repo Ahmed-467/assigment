@@ -37,13 +37,23 @@
 // Write each element on new line with the help of for loop
 
 
-let mobliename =["oppo","iphone","tecno","redmi","vivo"]
+// let mobliename =["oppo","iphone","tecno","redmi","vivo"]
+// let ul = document.querySelector('ul')
+// for (let i =0;i < mobliename.length; i++) {
+//    ul.innerHTML +=`<li>${mobliename[i]}</li>`
+    
+// }
+
+//5 Write a program to print items of the following array using for 
+// loop:
+// fruits = [“apple”, “banana”, “mango”, “orange”, “strawberry”
+let fruits =['apple',"banana",'mango',"orange","strawberry"]
 let ul = document.querySelector('ul')
-for (let i =0;i < mobliename.length; i++) {
-   ul.innerHTML +=`<li>${mobliename[i]}</li>`
+let para = document.querySelector('orderlist')
+for (let i = 0; i < fruits.length; i++) {
+  ul.innerHTML +=`<li>Element at index $['apple',"banana",'mango',"orange","strawberry"]</li>`
     
 }
-
 
     
     
