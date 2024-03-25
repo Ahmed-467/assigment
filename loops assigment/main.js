@@ -188,17 +188,17 @@
 // E.g. if user gives 3 as input value print 12, 45, 3
 // if user gives 34 as input value print 12, 45, 3, 22, 3
 
-var scores = [12, 45, 3, 22, 34, 50];
+// var scores = [12, 45, 3, 22, 34, 50];
 
-var stopValue = parseInt(prompt("Enter the stop value:"));
+// var stopValue = parseInt(prompt("Enter the stop value:"));
 
-for (let i = 0; i < scores.length; i++) {
-    if (scores[i] <= stopValue) {
-        console.log(scores[i]);
-    } else {
-        break; 
-    }
-}
+// for (let i = 0; i < scores.length; i++) {
+//     if (scores[i] <= stopValue) {
+//         console.log(scores[i]);
+//     } else {
+//         break; 
+//     }
+// }
 
 
 ///15Write a program to initialize an array of N items by using 
