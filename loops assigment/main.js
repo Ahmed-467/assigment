@@ -108,19 +108,36 @@
 
 
 
-let bakery =['cake', 'apple','pie' , 'cookie', 'chips', 'patties']
-const userinput = prompt("enter any item!")
-let isavailable = false;
+// let bakery =['cake', 'apple','pie' , 'cookie', 'chips', 'patties']
+// const userinput = prompt("enter any item!")
+// let isavailable = false;
 
 
-for(let i= 0;i <bakery.length; i++){
-    if(userinput === bakery[i]){
-        console.log("item avaiable hein!");
-        isavailable = true
+// for(let i= 0;i <bakery.length; i++){
+//     if(userinput === bakery[i]){
+//         console.log("item avaiable hein!");
+//         isavailable = true
+//     }
+// }if(isavailable === false){
+//     console.log('item available nahi hein malik!');
+// }
+
+///9. Write a program to identify the largest number in the given 
+// array.
+// A = [24, 53, 78, 91, 12
+
+let number =[24,53,78,91,12]
+let smallestnumber = number[0];
+for(let i=1;i <number.length; i++){
+    if(number[i] < smallestnumber){
+        smallestnumber = number[i];
     }
-}if(isavailable === false){
-    console.log('item available nahi hein malik!');
 }
+console.log("arry item: "+number +"");
+console.log('this smallest number is + smallestnumber');
+
+
+
 
 
 
