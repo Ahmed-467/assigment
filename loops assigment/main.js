@@ -139,15 +139,34 @@
 //10Write a program to identify the smallest number in the given 
 // array.
 // A = [24, 53, 78, 91, 12
-let number =[24,53,78,91,12]
-let smallestnumber = number[0];
-for(let i=1;i <number.length; i++){
-    if(number[i] < smallestnumber){
-        smallestnumber = number[i];
+// let number =[24,53,78,91,12]
+// let smallestnumber = number[0];
+// for(let i=1;i <number.length; i++){
+//     if(number[i] < smallestnumber){
+//         smallestnumber = number[i];
+//     }
+// }
+// console.log("arry item: "+number +"");
+// console.log('this smallest number is 12 + smallestnumber');
+
+//11Write a program to identify the largest & the smallest
+// number in the given array.
+A = [24, 53, 78, 91, 12]
+    let number =[24,53,78,91,12]
+    let smallestnumber = number[0];
+    for(let i=1;i <number.length; i++){
+        if(number[i] < smallestnumber){
+            smallestnumber = number[i];
+        }
     }
-}
-console.log("arry item: "+number +"");
-console.log('this smallest number is 12 + smallestnumber');
+    console.log("arry item: "+number +"");
+    console.log('this smallest number is 12 + smallestnumber');
+    console.log('this largest number is 91 + largestnumber');
+
+    //12. Write a program to print multiples of 5 ranging 1 to 10
+    
+
+
 
 
 
