@@ -25,11 +25,29 @@
 // input from user.
 
 
-let number = +prompt("enter your number!")
-let length = +prompt("time is golden")
-for(let i = 1;i <=10; i++){
-    console.log(`${number} x ${i} = ${number*i}`);
+// let number = +prompt("enter your number!")
+// let length = +prompt("time is golden")
+// for(let i = 1;i <=10; i++){
+//     console.log(`${number} x ${i} = ${number*i}`);
+// }
+
+
+//4 . You have an array
+// A = [“Nokia”, “Samsung”, “Apple”, “Sony”, “Huawei”]
+// Write each element on new line with the help of for loop
+
+
+let mobliename =["oppo","iphone","tecno","redmi","vivo"]
+let ul = document.querySelector('ul')
+for (let i =0;i < mobliename.length; i++) {
+   ul.innerHTML +=`<li>${mobliename[i]}</li>`
+    
 }
+
+
+    
+    
+
 
 
 
